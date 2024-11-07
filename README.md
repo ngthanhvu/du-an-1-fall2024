@@ -19,3 +19,15 @@ npm run dev
 ```sh
 npm run build
 ```
+### Update router
+```sh
+npm install vue-router@4
+```
+### Update swiper
+```sh
+npm install swiper
+```
+### Update bootstrap 
+```sh
+npm install bootstrap
+```
