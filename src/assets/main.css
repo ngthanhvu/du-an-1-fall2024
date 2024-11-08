@@ -255,11 +255,11 @@ ol {
 }
 
 .header__top__left {
-	padding: 10px 0 13px;
+	padding: 20px 0 13px;
 }
 
 .header__top__left ul li {
-	font-size: 14px;
+	font-size: 17px;
 	color: #1c1c1c;
 	display: inline-block;
 	margin-right: 45px;
@@ -292,7 +292,7 @@ ol {
 
 .header__top__right {
 	text-align: right;
-	padding: 10px 0 13px;
+	padding: 20px 0 13px;
 }
 
 .header__top__right__social {
@@ -352,7 +352,7 @@ ol {
 }
 
 .header__top__right__language div {
-	font-size: 14px;
+	font-size: 17px;
 	color: #1c1c1c;
 	display: inline-block;
 	margin-right: 4px;
@@ -399,21 +399,32 @@ ol {
 
 .header__top__right__auth a {
 	display: block;
-	font-size: 14px;
+	font-size: 17px;
 	color: #1c1c1c;
+	text-decoration: none;
 }
 
 .header__top__right__auth a i {
 	margin-right: 6px;
 }
 
-.header__logo {
-	padding: 15px 0;
-}
 
-.header__logo a {
-	display: inline-block;
-}
+
+.header__logo {
+	text-align: center; 
+	padding: 0 10px 0px; 
+  }
+  
+  .header__logo img {
+	max-width: 100%; 
+	height: auto;
+	max-height: 120px; 
+  }
+  
+  .header__logo a {
+	display: inline-block; 
+  }
+  
 
 .header__menu {
 	padding: 24px 0;
@@ -538,7 +549,7 @@ ol {
 }
 
 .header__cart .header__cart__price {
-	font-size: 14px;
+	font-size: 17px;
 	color: #6f6f6f;
 	display: inline-block;
 }

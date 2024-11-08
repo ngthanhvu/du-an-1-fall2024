@@ -4,17 +4,23 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../components/Home.vue';
 import Product from '../components/Product.vue';
 import Detail_product from '../components/Detail_product.vue';
+import Contact from '../components/Contact.vue';
+import About from '../components/About.vue';
+import Blog from '../components/Blog.vue';
 
 
 const routes = [
-  { path: '/', component: Home },        
+  { path: '/', component: Home },
   { path: '/product', component: Product },
   { path: '/detail_product', component: Detail_product },
+  { path: '/contact', component: Contact },
+  { path: '/about', component: About },
+  { path: '/blog', component: Blog },
 ];
 
 const router = createRouter({
-  history: createWebHistory(),  
-  routes,  
+  history: createWebHistory(),
+  routes,
 });
 
 export default router;

@@ -9,7 +9,7 @@
                         <h2>Organi Shop</h2>
                         <div class="breadcrumb__option">
                             <router-link to="/">Trang Chủ</router-link>
-                            <router-link to="/product">Giới Thiệu</router-link>
+                            <router-link to="/product">Tin Tức</router-link>
                         </div>
                     </div>
                 </div>
@@ -17,10 +17,11 @@
         </div>
     </section>
     <!-- Breadcrumb Section End -->
-  </template>
+  
+</template>
 
 <script>
 export default {
-  name: 'About'
+  name: 'Blog'
 }
 </script>

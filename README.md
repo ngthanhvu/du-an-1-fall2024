@@ -31,3 +31,11 @@ npm install swiper
 ```sh
 npm install bootstrap
 ```
+### Update icon Fortawesome
+```sh
+npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/vue-fontawesome
+```
+### Update icon brands
+```sh
+npm install @fortawesome/free-regular-svg-icons
+```

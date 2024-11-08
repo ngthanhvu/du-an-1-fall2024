@@ -36,7 +36,7 @@
                         </div>
                         <div class="hero__search__phone">
                             <div class="hero__search__phone__icon">
-                                <i class="fa fa-phone"></i>
+                              <font-awesome-icon icon="phone" class="icon-green" />
                             </div>
                             <div class="hero__search__phone__text">
                                 <h5>+65 11.188.888</h5>
@@ -460,12 +460,12 @@ export default {
     color: rgb(0, 0, 0);
 }
 .featured__item__pic img {
-    width: 100%;  
-    max-width: 200px; 
-    height: auto; 
-    object-fit: cover; 
-    margin: 0 auto; 
-    display: block; 
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
 }
 
 </style>
