@@ -35,7 +35,7 @@ export default {
                 </ul>
               </div>
               <div class="header__top__right__auth">
-                <a href="#"><font-awesome-icon :icon="['far', 'user']" /> Đăng Nhập</a>
+                <router-link to="/login"><font-awesome-icon :icon="['far', 'user']" />Đăng nhập</router-link>
               </div>
             </div>
           </div>
